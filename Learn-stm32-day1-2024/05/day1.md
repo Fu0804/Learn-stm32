@@ -114,5 +114,5 @@ NRST接于单片机7号引脚，用于给单片机复位。设备死机不方便
 
 ## 软件安装
 ### 安装Keil5 MDK
-依照视频教程安装即可。[[2-1] 软件安装_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1th411z7sn/?p=3&spm_id_from=pageDriver&vd_source=6a76004ab22d8805367a30ab5bb4d4f0)
+依照视频教程安装即可。[[2-1] 软件安装_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1th411z7sn/?p=3&spm_id_from=pageDriver&vd_source=6a76004ab22d8805367a30ab5bb4d4f0)  
 
