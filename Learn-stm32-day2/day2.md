@@ -183,3 +183,23 @@ int main(void)
 
 ```
 
+### 启动文件选择
+具体选择哪个启动文件需要由型号确定，具体型号解释如下表所示：
+<div align=center>
+<img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/3611ee11-d658-4550-a4ef-6db955d63b80">
+</div>
+
+使用STM32F105/107型号，选择CL启动文件即可；其他的根据Flash容量选择启动文件。
+
+### 新建工程步骤
+* 建立工程文件夹，Keil中新建工程，选择型号
+* 工程文件夹里建立Start、Library、User等文件夹，复制固件库里面的文件到工程文件夹
+* 工程里对应建立Start、Library、User等同名称的分组，然后将文件夹内的文件添加到工程分组里
+* 工程选项，C/C++，Include Paths内声明所有包含头文件的文件夹
+* 工程选项，C/C++，Define内定义USE_STDPERIPH_DRIVER
+* 工程选项，Debug，下拉列表选择对应调试器，Settings，Flash Download里勾选Reset and Run
+
+### 工程架构
+<div align=center>
+<img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/8ed3334d-92c6-4f3a-9169-11a31c6cf71a">
+</div>
