@@ -24,4 +24,15 @@
 <img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/5518af1f-c05b-4f36-bf8f-ac10f783b7a6">
 </div>
 
+* 整体结构可以分为两个部分，上面为输入部分，下面为输出部分。
+<div align=center>
+<img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/9ad32e3d-e10b-46d1-b77d-e00923b22fdf">
+</div>
 
+* 首先看输入部分右侧的I/O引脚，接了两个保护二极管，用于对输入电压限幅，避免过高的电压，或电流汲取对内部电路造成损害。
+<div align=center>
+<img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/a12342fa-8383-4ee0-afdf-d6dee5baf8d6">
+</div>
+
+
+* 
