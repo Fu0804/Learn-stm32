@@ -34,5 +34,20 @@
 <img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/a12342fa-8383-4ee0-afdf-d6dee5baf8d6">
 </div>
 
+* 这一部分由一上拉电阻和下拉电阻组成，通过控制开关开断来选择不同的模式。为避免引脚悬空导致输入不确定，在此处加上拉下拉电阻。如果引脚悬空，假设接了上拉电阻，那还将有上拉电阻保证输入高电平。
+* 所以上拉输入可以称作默认为高电平的输入模式；下拉输入称作默认为低电平的输入模式。这两个电阻都比较大，目的是不过大影响输入操作。
+<div align=center>
+<img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/2ed7be60-fb8a-4e53-87d1-68a277a15c51">
+</div>
 
-* 
+* 施密特触发器，用于输入信号整形。
+<div align=center>
+<img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/e0d85a7e-6b5d-489c-8414-45996ff86049">
+</div>
+
+* 将经施密特触发器处理后的信号写入输入数据寄存器，即完成信号输入。
+<div align=center>
+<img src="https://github.com/Fu0804/Learn-stm32/assets/151499353/e0d85a7e-6b5d-489c-8414-45996ff86049">
+</div>
+
+
